@@ -1,0 +1,10 @@
+Subjek: Topik disetujui - "{TOPIC_TITLE}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena topik "{TOPIC_TITLE}" di "{SITENAME}" disetujui oleh moderator atau administrator.
+
+Jika Anda ingin melihat topik, klik link berikut:
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

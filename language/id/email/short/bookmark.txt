@@ -1,0 +1,20 @@
+Subjek: Pemberitahuan balasan topik - "{TOPIC_TITLE}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena topik yang Anda bookmarkkan, "{TOPIC_TITLE}" di "{SITENAME}", telah menerima balasan sejak kunjungan terakhir Anda. Anda dapat menggunakan tautan berikut untuk melihat balasan yang dibuat, tidak ada notifikasi lagi yang akan dikirim sampai Anda mengunjungi topik tersebut.
+
+Jika Anda ingin melihat posting terbaru yang dibuat sejak kunjungan terakhir Anda, klik link berikut ini:
+{U_NEWEST_POST}
+
+Jika Anda ingin melihat topik, klik link berikut:
+{U_TOPIC}
+
+Jika Anda ingin melihat forum, klik link berikut ini:
+{U_FORUM}
+
+Jika Anda tidak ingin lagi menerima pembaruan tentang balasan ke bookmark, harap perbarui setelan notifikasi Anda di sini:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

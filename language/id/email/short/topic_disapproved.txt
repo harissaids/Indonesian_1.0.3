@@ -1,0 +1,11 @@
+Subjek: Topik tidak disetujui - "{TOPIC_TITLE}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena topik Anda "{TOPIC_TITLE}" di "{SITENAME}" tidak disetujui oleh moderator atau administrator.
+
+Alasan berikut diberikan untuk ketidaksetujuan:
+
+{REASON}
+
+{EMAIL_SIG}

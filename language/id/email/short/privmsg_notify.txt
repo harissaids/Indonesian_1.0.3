@@ -1,0 +1,15 @@
+Subjek: Pesan pribadi baru telah tiba
+
+Halo {USERNAME},
+
+Anda telah menerima pesan pribadi baru dari "{AUTHOR_NAME}" ke akun Anda di "{SITENAME}" dengan subjek berikut:
+
+{SUBJECT}
+
+Anda dapat melihat pesan baru Anda dengan mengklik link berikut:
+
+{U_VIEW_MESSAGE}
+
+Anda telah meminta agar Anda diberi tahu tentang acara ini, ingatlah bahwa Anda selalu dapat memilih untuk tidak diberitahu tentang pesan baru dengan mengubah pengaturan yang sesuai di profil Anda.
+
+{EMAIL_SIG}

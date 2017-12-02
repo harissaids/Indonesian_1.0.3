@@ -1,0 +1,20 @@
+Subjek: Pemberitahuan balasan topik - "{TOPIC_TITLE}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena "{AUTHOR_NAME}" mengutip Anda dalam topik "{TOPIC_TITLE}" di "{SITENAME}". Anda bisa menggunakan link berikut untuk melihat jawabannya.
+
+Jika Anda ingin melihat posting yang dikutip, klik link berikut ini:
+{U_VIEW_POST}
+
+Jika Anda ingin melihat topik, klik link berikut:
+{U_TOPIC}
+
+Jika Anda ingin melihat forum, klik link berikut ini:
+{U_FORUM}
+
+Jika Anda tidak ingin menerima pembaruan lagi tentang balasan yang mengutip Anda, harap perbarui setelan notifikasi Anda di sini:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

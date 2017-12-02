@@ -1,0 +1,13 @@
+Subjek: Notifikasi moderasi topik - "{TOPIC_TITLE}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena topik "{TOPIC_TITLE}" di "{SITENAME}" memerlukan persetujuan.
+
+Jika Anda ingin melihat topik, klik link berikut:
+{U_VIEW_TOPIC}
+
+Jika Anda ingin melihat forum, klik link berikut ini:
+{U_FORUM}
+
+{EMAIL_SIG}

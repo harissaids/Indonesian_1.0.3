@@ -1,0 +1,13 @@
+Subjek: Pos disetujui - "{POST_SUBJECT}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena pos Anda "{POST_SUBJECT}" pada "{SITENAME}" disetujui oleh moderator atau administrator.
+
+Jika Anda ingin melihat posting, klik link berikut:
+{U_VIEW_POST}
+
+Jika Anda ingin melihat topik, klik link berikut:
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

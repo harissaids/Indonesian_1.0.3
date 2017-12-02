@@ -1,0 +1,13 @@
+Subjek: Notifikasi topik baru - "{FORUM_NAME}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena Anda menonton forum "{FORUM_NAME}" di "{SITENAME}". Forum ini telah menerima topik baru <!-- IF AUTHOR_NAME! = '' --> oleh {AUTHOR_NAME} <!-- ENDIF --> sejak kunjungan terakhir Anda, "{TOPIC_TITLE}". Anda bisa menggunakan link berikut untuk melihat forum, tidak ada notifikasi lagi yang akan dikirim sampai Anda mengunjungi forum.
+
+{U_FORUM}
+
+Jika Anda tidak ingin menonton forum ini lagi, Anda bisa mengklik link "Berhenti berlangganan" yang ada di forum di atas, atau dengan mengklik link berikut:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

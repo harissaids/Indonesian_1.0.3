@@ -1,0 +1,20 @@
+Subjek: Pemberitahuan balasan topik - "{TOPIC_TITLE}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena Anda memperhatikan topik "{TOPIC_TITLE}" di "{SITENAME}". Topik ini telah menerima balasan <!-- IF AUTHOR_NAME != '' --> oleh {AUTHOR_NAME} <!-- ENDIF --> sejak kunjungan terakhir Anda. Anda dapat menggunakan tautan berikut untuk melihat balasan yang dibuat, tidak ada notifikasi lagi yang akan dikirim sampai Anda mengunjungi topik tersebut.
+
+Jika Anda ingin melihat posting terbaru yang dibuat sejak kunjungan terakhir Anda, klik link berikut ini:
+{U_NEWEST_POST}
+
+Jika Anda ingin melihat topik, klik link berikut:
+{U_TOPIC}
+
+Jika Anda ingin melihat forum, klik link berikut ini:
+{U_FORUM}
+
+Jika Anda tidak lagi ingin menonton topik ini, Anda bisa mengklik link "Unsubscribe topic" yang terdapat di bagian bawah topik di atas, atau dengan mengklik link berikut:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}
