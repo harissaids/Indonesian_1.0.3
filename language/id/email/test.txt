@@ -1,0 +1,9 @@
+Subject: phpBB dikonfigurasi dengan benar untuk mengirim email
+
+Halo {USERNAME},
+
+Selamat. Jika Anda menerima email ini, phpBB telah dikonfigurasi dengan benar untuk mengirim email.
+
+Jika Anda memerlukan bantuan, kunjungi forum dukungan phpBB - https://www.phpbb.com/community/
+
+{EMAIL_SIG}

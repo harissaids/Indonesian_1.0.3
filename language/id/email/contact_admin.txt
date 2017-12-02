@@ -1,0 +1,23 @@
+
+Halo {TO_USERNAME},
+
+Berikut adalah e-mail yang dikirimkan kepada Anda melalui halaman kontak administrasi pada "{SITENAME}".
+
+<!-- IF S_IS_REGISTERED -->
+Pesan telah dikirim dari akun di situs.
+Nama pengguna: {FROM_USERNAME}
+Alamat e-mail: {FROM_EMAIL_ADDRESS}
+Alamat IP: {FROM_IP_ADDRESS}
+Profil: {U_FROM_PROFILE}
+<!-- ELSE -->
+Pesan tersebut dikirim dari tamu yang menyebutkan informasi kontak berikut:
+Nama: {FROM_USERNAME}
+Alamat e-mail: {FROM_EMAIL_ADDRESS}
+Alamat IP: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Pesan yang dikirim kepada Anda berikut
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MASSAGE}

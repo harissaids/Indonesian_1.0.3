@@ -1,0 +1,13 @@
+Subjek: Notifikasi moderasi pos - "{TOPIC_TITLE}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena pos "{POST_SUBJECT}" di "{SITENAME}" memerlukan persetujuan.
+
+Jika Anda ingin melihat posting, klik link berikut:
+{U_VIEW_POST}
+
+Jika Anda ingin melihat topik, klik link berikut:
+{U_TOPIC}
+
+{EMAIL_SIG}

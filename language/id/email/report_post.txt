@@ -1,0 +1,13 @@
+Subjek: Laporan pos - "{TOPIC_TITLE}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena pos "{POST_SUBJECT}" di "{SITENAME}" telah dilaporkan.
+
+Jika Anda ingin melihat laporannya, klik link berikut ini:
+{U_VIEW_REPORT}
+
+Jika Anda ingin melihat posting, klik link berikut:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

@@ -1,0 +1,10 @@
+Subjek: Laporan Pesan Pribadi - "{TOPIC_TITLE}"
+
+Halo {USERNAME},
+
+Anda menerima pemberitahuan ini karena Pesan Pribadi berjudul "{SUBJECT}" oleh "{AUTHOR_NAME}" di "{SITENAME}" telah dilaporkan.
+
+Jika Anda ingin melihat laporannya, klik link berikut ini:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}
