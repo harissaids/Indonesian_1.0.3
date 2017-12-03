@@ -245,12 +245,8 @@ $lang = array_merge($lang, array(
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'	=> 'Di sini anda dapat mengatur nama pengguna yang yang tidak akan diijinkan untuk digunakan. Nama pengguna yang tidak diijinkan boleh mengandung karakter wildcard *. Mohon dicatat bahwa anda tidak bisa menentukan nama pengguna yang sudah didaftarkan, anda harus menghapusnya terlebih dahulu kemudian mengijinkan nama tersebut.',
 	'ADD_DISALLOW_EXPLAIN'	=> 'Anda bisa tidak mengijinkan nama pengguna yang memakai karakter wildcard * untuk mencocokkan beberapa karakter.',
-	'ADD_DISALLOW_TITLE'	=> 'Tambahkan nama pengguna yang tidak diijinkan',
 
-	'DELETE_DISALLOW_EXPLAIN'	=> 'Anda bisa menyingkirkan nama pengguna yang tidak diijinkan dengan memilih nama pengguna tersebut dari daftar dan mengklik tombol ajukan.',
-	'DELETE_DISALLOW_TITLE'		=> 'Singkirkan semua nama pengguna yang tidak diijinkan',
 	'DISALLOWED_ALREADY'		=> 'Nama yang anda masukkan sudah tidak boleh digunakan lagi.',
 	'DISALLOWED_DELETED'		=> 'Nama pengguna yang tidak dibolehkan tersebut telah berhasil disingkirkan.',
 	'DISALLOW_SUCCESSFUL'		=> 'Nama pengguna yang tidak dibolehkan tersebut telah berhasil ditambahkan.',

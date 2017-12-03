@@ -49,7 +49,6 @@ $lang = array_merge($lang, array(
 	'GROUPS_NO_MODS'				=> 'Belum ada pemimpin grup yang dipilih',
 
 	'GROUP_APPROVE'					=> 'Ijinkan anggota',
-	'GROUP_APPROVED'				=> 'Anggota diijinkan',
 	'GROUP_AVATAR'					=> 'Avatar grup',
 	'GROUP_AVATAR_EXPLAIN'			=> 'Gambar ini akan ditampilkan di Papan Pengaturan Grup.',
 	'GROUP_CATEGORY_NAME'			=> 'Nama katagori',
@@ -90,8 +89,6 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME_TAKEN'				=> 'Nama grup yang anda masukkan sudah digunakan, silahkan gunakan nama lain.',
 	'GROUP_OPEN'					=> 'Terbuka',
 	'GROUP_PENDING'					=> 'Keanggotaan yang tertunda',
-	'GROUP_MAX_RECIPIENTS'			=> 'Jumlah maksimum yang diijinkan untuk penerima per pesan pribadi',
-	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'Jumlah maksimum yang diijinkan untuk penerima untuk pesan pribadi. Nilai 0 berarti pengaturan halaman yang digunakan.',
 	'GROUP_OPTIONS_SAVE'			=> 'Pilihan grup menyeluruh',
 	'GROUP_PROMOTE'					=> 'Promosikan ke pemimpin grup',
 	'GROUP_RANK'					=> 'Ranking Grup',

@@ -41,7 +41,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'Dengan mengakses “%1$s” (selanjutnya disebut “kami”, “kita”, “%1$s”, “%2$s”), anda setuju secara hukum diikat dengan syarat-syarat berikut ini. Jika anda secara hukum tidak setuju terikat dengan syarat-syarat berikut ini maka dimohon untuk tidak mengakses dan/atau menggunakan “%1$s”. Kami mungkin mengubah hal ini setiap waktu dan dan akan sepenuhnya menginformasikan anda, meskipun demikian sangatlah bijaksana untuk meninjau hal ini oleh anda sendiri sebagai kelanjutan dari penggunaan/pemakaian “%1$s” setelah perubahan berarti anda secara hukum terikat dengan syarat-syarat ini sebagaimana yang telah diperbarui atau dikembangkan.<br />
 	<br />
-	Forum kami ini didukung oleh phpBB (selanjutnya disebut “mereka”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) sebagai sebuah bulletin board solution yang dirilis menurut “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (selanjutnya disebut “GPL”) dan dapat didownload dari <a href="http://www.phpbb.com/">www.phpbb.com</a>.Software phpBB hanya memfasilitasi diskusi internet, phpBB Group tidak bertanggung jawab atas apa yang diperbolehkan dan/atau yang tidak diperbolehkan sebagaimana isi ataupun tingkah laku yang diijinkan. Untuk informasi lebih lanjut mengenai phpBB, silahkan melihat: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a>.<br />
 	<br />
 	Anda setuju untuk tidak memposkan segala sesuatu yang kasar, cabul, fitnah, ancaman, orientasi seksual ataupun hal-hal lain yang melanggar semua hukum yang ada di negara anda, negara dimana “%1$s” dihost ataupun Hukum Internasional. Dengan melakukan hal ini denagn seketika dan selamanya anda akan diasingkan, dengan pemberitahuan dari Internet Service Provider anda jika kami anggap diperlukan. IP address dari semua pos akan direkam untuk membantu menguatkan kondisi ini. Anda setuju bahwa “%1$s” memiliki hak untuk menyingkirkan, mengubah, memindahkan ataupun menutup berbagai topik setiap saat yang kami lihat pantas. Sebagai pengguna anda setuju pada semua informasi yang sudah anda masukkan untuk disimpan di database. Walaupun informasi ini tidak akan diperlihatkan kepada semua pihak ketiga tanpa persetujuan anda, baik “%1$s” maupun phpBB akan bertanggung jawab atas segala percobaan hacking yang mengarah kepada data yang dikompromikan.
 	',
@@ -94,20 +93,14 @@ $lang = array_merge($lang, array(
 	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Kunci masuk "Ingat Saya" yang terpilih telah berhasil dihapus.',
 	'AVATAR_CATEGORY'				=> 'Kategori',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
-	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar is a service that allows you to maintain the same avatar across multiple websites. Visit <a href="http://www.gravatar.com/">Gravatar</a> for more information.',
 	'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Gallery avatar',
-	'AVATAR_DRIVER_LOCAL_EXPLAIN'	=> 'You can choose your avatar from a locally available set of avatars.',
 	'AVATAR_DRIVER_REMOTE_TITLE'	=> 'Remote avatar',
-	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Link to avatar images from another website.',
-	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Upload avatar',
-	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Upload your own custom avatar.',
 
 	'AVATAR_EXPLAIN'				=> 'Ukuran maksimal; lebar: %1$s piksel, tinggi: %2$s piksel, besar file: %3$.2f KiB.',
 	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Dimensi maksimum; lebar: %1$s, tinggi: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Avatar tidak diperbolehkan sekarang ini.',
 	'AVATAR_GALLERY'				=> 'Galeri lokal',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Tidak dapat meng-upload avatar ke %s.',
-	'AVATAR_NOT_ALLOWED'			=> 'Avatar anda tidak bisa ditampilkan karena avatar tidak diijinkan.',
 	'AVATAR_PAGE'					=> 'Halaman',
 
 	'AVATAR_SELECT'					=> 'Pilih Avatar Anda',
@@ -203,15 +196,11 @@ $lang = array_merge($lang, array(
 
 	'FIELD_REQUIRED'					=> 'Isian ini “%s” harus dilengkapi.',
 	'FIELD_TOO_SHORT'					=> array(
-		1	=> 'Isian ini “%2$s” terlalu singkat, karakter minimal yang diijinkan adalah %1$d.',
-		2	=> 'Isian ini “%2$s” terlalu singkat, karakter minimal yang diijinkan adalah %1$d.',
 	),
 	'FIELD_TOO_LONG'					=> array(
-		1	=> 'Isian ini “%2$s” terlalu panjang, karakter maksimal yang diijinkan adalah %1$d.',
-		2	=> 'Isian ini “%2$s” terlalu panjang, karakter maksimal yang diijinkan adalah %1$d.'
 	),
-	'FIELD_TOO_SMALL'					=> 'Nilai dari “%1$s” terlalu kecil, nilai terkecil yang diijinkan adalah %2$d.',
-	'FIELD_TOO_LARGE'					=> 'Nilai dari “%1$s” terlalu besar, nilai maksimal yang diijinkan adalah %2$d.',
+	'FIELD_TOO_SMALL'					=> 'Nilai dari “%1$s” terlalu kecil, nilai terkecil yang diizinkan adalah %2$d.',
+	'FIELD_TOO_LARGE'					=> 'Nilai dari “%1$s” terlalu besar, nilai maksimal yang diizinkan adalah %2$d.',
 	'FIELD_INVALID_CHARS_INVALID'		=> 'Isian ini “%s” tidak memiliki karakter sah.',
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'Isian ini “%s” tidak memiliki karakter sah, hanya angka yang diizinkan.',
 	'FIELD_INVALID_CHARS_ALPHA_DOTS'	=> 'Isian ini “%s” tidak memiliki karakter sah, hanya alpanumerik atau . karakter yang diizinkan.',
@@ -229,7 +218,6 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_VALUE'            	=> 'Isian ini “%s” tidak memiliki nilai yang sah.',
 
 	'FOE_MESSAGE'				=> 'Pesan dari lawan',
-	'FOES_EXPLAIN'				=> 'Lawan adalah pengguna yang diabaikan sebagaimana adanya. Pos dari mereka tidak akan terlihat sepenuhnya. Pesan pribadi dari lawan masih diijinkan. Mohon dicatat bahwa anda tidak dapat mengabaikan moderator ataupun administrator.',
 	'FOES_UPDATED'				=> 'Daftar lawan anda telah berhasil diperbarui.',
 	'FOLDER_ADDED'				=> 'Folder berhasil ditambahkan.',
 	'FOLDER_MESSAGE_STATUS'		=> array(
@@ -301,7 +289,6 @@ $lang = array_merge($lang, array(
 
 	'MARK_IMPORTANT'				=> 'Tandai/jangan tandai ini penting',
 	'MARKED_MESSAGE'				=> 'Pesan ditandai',
-	'MAX_FOLDER_REACHED'			=> 'Jumlah maksimal pengguna yang diijinkan dalam folder telah tercapai.',
 	'MESSAGE_BY_AUTHOR'				=> 'oleh',
 	'MESSAGE_COLOURS'				=> 'Warna Pesan',
 	'MESSAGE_DELETED'				=> 'Pesan berhasil dihapus.',
@@ -547,23 +534,19 @@ $lang = array_merge($lang, array(
 	'UCP_NOTIFICATION_OPTIONS'			=> 'Ebit opsi notifikasi',
 	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Disini Anda dapat mengatur metode notifikasi yang ada sukai.',
 
-	'UCP_PREFS'					=> 'Preferensi Papan',
-	'UCP_PREFS_PERSONAL'		=> 'Edit pengaturan global',
-	'UCP_PREFS_POST'			=> 'Edit default posting',
-	'UCP_PREFS_VIEW'			=> 'Edit pilihan tampilan',
 
 	'UCP_PM'					=> 'Pesan Pribadi',
 	'UCP_PM_COMPOSE'			=> 'Tulis pesan',
 	'UCP_PM_DRAFTS'				=> 'Atur Naskah Pesan Pribadi',
-	'UCP_PM_OPTIONS'			=> 'Peraturan, folder &amp; pengaturan',
+	'UCP_PM_OPTIONS'			=> 'Peraturan, Folder &amp; Pengaturan',
 	'UCP_PM_UNREAD'				=> 'Pesan tak terbaca',
 	'UCP_PM_VIEW'				=> 'Lihat pesan',
 
 	'UCP_PROFILE'				=> 'Profil',
-	'UCP_PROFILE_AVATAR'		=> 'Ubah avatar',
-	'UCP_PROFILE_PROFILE_INFO'	=> 'Ubah profil',
-	'UCP_PROFILE_REG_DETAILS'	=> 'Ubah pengaturan akun',
-	'UCP_PROFILE_SIGNATURE'		=> 'Ubah tanda tangan',
+	'UCP_PROFILE_AVATAR'		=> 'Ubah Avatar',
+	'UCP_PROFILE_PROFILE_INFO'	=> 'Ubah Profil',
+	'UCP_PROFILE_REG_DETAILS'	=> 'Ubah Pengaturan akun',
+	'UCP_PROFILE_SIGNATURE'		=> 'Ubah Tanda tangan',
 
 	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Kelola Login Keys “Ingat Saya"',
 
@@ -575,7 +558,7 @@ $lang = array_merge($lang, array(
 	'UCP_REGISTER_DISABLE'			=> 'Membuat account baru tidak mungkin untuk sekarang ini.',
 	'UCP_REMIND'					=> 'Kirim password',
 	'UCP_RESEND'					=> 'Kirim e-mail aktivasi',
-	'UCP_WELCOME'					=> 'Selamat datang di Pengaturan Papan Pengguna. Dari sini anda dapat memonitor, melihat dan meng-update profil anda, preferensi, subscribed forum dan topik. Anda juga dapat megirim pesan ke user-user (jika diijinkan).  Sebelum melanjutkan, pastikan anda membaca semua pengumuman terlebih dahulu.',
+	'UCP_WELCOME'					=> 'Selamat datang di Pengaturan Papan Pengguna. Dari sini anda dapat memonitor, melihat dan meng-update profil anda, preferensi, subscribed forum dan topik. Anda juga dapat megirim pesan ke user-user (jika diizinkan).  Sebelum melanjutkan, pastikan anda membaca semua pengumuman terlebih dahulu.',
 	'UCP_ZEBRA'						=> 'Teman &amp; Lawan',
 	'UCP_ZEBRA_FOES'				=> 'Atur lawan',
 	'UCP_ZEBRA_FRIENDS'				=> 'Atur teman',

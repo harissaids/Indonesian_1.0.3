@@ -97,8 +97,6 @@ $lang = array_merge($lang, array(
 
 	'MAX_SEARCH_CHARS'						=> 'Karakter maksimum yang diindeks oleh pencarian',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Kata dengan jumlah karakter yang tidak melebihi jumlah ini akan diindeks untuk pencarian.',
-    'MAX_NUM_SEARCH_KEYWORDS'				=> 'Kata kunci maksimum yang diijinkan',
-    'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Jumlah maksimum kata yang diijinkan untuk dicari oleh pengguna. Nilai 0 mengijinkan untuk tidak membatasi jumlah kata.',
 	'MIN_SEARCH_CHARS'						=> 'Karakter minimum yang diindeks oleh pencarian',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Kata dengan jumlah karakter yang lebih kecil dari jumlah ini akan diindeks untuk pencarian.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Karakter minimal nama pengarang',

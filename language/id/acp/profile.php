@@ -126,9 +126,6 @@ $lang = array_merge($lang, array(
 	'LETTER_NUM_UNDERSCORE'		=> 'Huruf apa saja, angka dan garis-bawah',
 
 	'MAX_FIELD_CHARS'		=> 'Jumlah maksimum karakter',
-	'MAX_FIELD_NUMBER'		=> 'Nomor tertinggi yang diijinkan',
-	'MIN_FIELD_CHARS'		=> 'Jumlah minimum karakter yang diijinkan',
-	'MIN_FIELD_NUMBER'		=> 'Nomor terendah yang diijinkan',
 
 	'NO_FIELD_ENTRIES'			=> 'Tidak ada masukan yang ditentukan',
 	'NO_FIELD_ID'				=> 'Tidak ada Id isian yang ditentukan.',

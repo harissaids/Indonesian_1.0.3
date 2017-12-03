@@ -224,10 +224,8 @@ $lang = array_merge($lang, array(
 	'MERGE_TOPIC_ID'		=> 'Nomor identifikasi topik tujuan',
 	'MERGE_TOPICS'			=> 'Gabungkan topik-topik',
 	'MERGE_TOPICS_CONFIRM'	=> 'Apakah anda yakin ingin menggabungkan topik-topik yang dipilih?',
-	'MODERATE_FORUM'		=> 'Moderasi forum',
-	'MODERATE_TOPIC'		=> 'Moderasi topik',
-	'MODERATE_POST'			=> 'Moderasi post',
-	'MOD_OPTIONS'			=> 'Pilihan-pilihan moderator',
+	'MODERATE_POST'			=> 'Moderasi Post',
+	'MOD_OPTIONS'			=> 'Pilihan-pilihan Moderator',
 	'MORE_INFO'				=> 'Informasi lebih lanjut',
 	'MOST_WARNINGS'			=> 'Pengguna dengan peringatan paling banyak',
 	'MOVE_TOPIC_CONFIRM'	=> 'Apakah anda yakin ingin memindahkan topik ini ke forum yang baru?',
@@ -337,7 +335,7 @@ $lang = array_merge($lang, array(
 	'RETURN_POST'				=> '%sKembali ke post%s',
 	'RETURN_QUEUE'				=> '%sKembali ke antrian%s',
 	'RETURN_REPORTS'			=> '%sKembali ke laporan%s',
-	'RETURN_TOPIC_SIMPLE'		=> '%sKEmbali ke topik%s',
+	'RETURN_TOPIC_SIMPLE'		=> '%sKembali ke topik%s',
 
 	'SEARCH_POSTS_BY_USER'				=> 'Cari post-post berdasarkan',
 	'SELECT_ACTION'						=> 'Pilih tindakan yang diinginkan',
@@ -411,7 +409,6 @@ $lang = array_merge($lang, array(
 
 	'VIEW_DETAILS'			=> 'Lihat keterangan',
 	'VIEW_PM'				=> 'Lihat pesan pribadi',
-	'VIEW_POST'				=> 'LIhat post',
 
 	'WARNED_USERS'			=> 'Pengguna yang diperingatkan',
 	'WARNED_USERS_EXPLAIN'	=> 'Ini adalah daftar pengguna dengan peringatan yang belum habis waktunya.',

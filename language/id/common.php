@@ -107,7 +107,6 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'Token OAuth salah tersimpan.',
     
 	'AVATAR_DISALLOWED_CONTENT'		=> 'Upload ditolak karena file yang diupload dikenali kemungkinan penyerangan.',
-	'AVATAR_DISALLOWED_EXTENSION'	=> 'File ini tidak dapat ditampilkan karena ekstensi file <strong>%s</strong> tidak diijinkan.',
 	'AVATAR_EMPTY_REMOTE_DATA'		=> 'Avatar yang dimaksud tidak dapat diupload karena remote data kelihatannya tidak sah ataupun rusak.',
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'File avatar yang diupload kosong.',
 	'AVATAR_INVALID_FILENAME'		=> '%s adalah nama file yang tidak sah.',
@@ -116,7 +115,6 @@ $lang = array_merge($lang, array(
  	'AVATAR_NO_TEMP_DIR'			=> 'Folder sementara tidak dapat ditemukan atau tidak dapat ditulis.',
 	'AVATAR_NO_SIZE'				=> 'Ukuran panjang dan lebar avatar yang di-link-kan tidak dapat ditentukan. Mohon diisi secara manual.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'File yang dimaksud diupload secara parsial.',
-	'AVATAR_PHP_SIZE_NA'			=> 'Ukuran file avatar terlalu besar.<br />Batas ukuran besar file maksimum yang diijinkan yang diatur di php.ini tidak dapat ditentukan.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Ukuran file avatar terlalu besar. Ukuran maksimum file upload adalah %1$d %2$s.<br />Mohon dicatat bahwa ini diatur pada php.ini dan tidak dapat dikesampingkan.',
 	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'Avatar yang ditentukan tidak dapat diunggah karena permintaan habis waktunya.',
 	'AVATAR_PHP_UPLOAD_STOPPED'		=> 'A PHP extension has stopped the file upload.',
@@ -216,7 +214,6 @@ $lang = array_merge($lang, array(
 		2	=> 'Diunduh %d kali',
 	),
 
-	'EDIT_POST'							=> 'U',
 	'ELLIPSIS'							=>	'…',
 	'EMAIL'								=> 'E-mail', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'Alamat e-mail',
@@ -445,7 +442,6 @@ $lang = array_merge($lang, array(
 	'NEVER'						=> 'Jangan pernah',
 	'NO'						=> 'Tidak',
 	'NO_NOTIFICATIONS'			=> 'Tidak ada Notifikasi',
-	'NOT_ALLOWED_MANAGE_GROUP'	=> 'Anda tidak diijinkan untuk mengatur grup ini.',
 	'NOT_AUTHORISED'			=> 'anda tidak berhak mengakses area ini.',
 	'NOT_WATCHING_FORUM'		=> 'Anda tidak berlangganan untuk mengupdate forum ini lagi.',
 	'NOT_WATCHING_TOPIC'		=> 'Anda tidak berlangganan topik ini lagi.',
@@ -495,10 +491,8 @@ $lang = array_merge($lang, array(
 	),
 	'NOTIFY_ADMIN'				=> 'Silahkan memberitahukan administrator atau webmaster.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Silahkan memeberitahukan administrator atau webmaster: <a href="mailto:%1$s">%1$s</a>',
-	'NO_ACCESS_ATTACHMENT'		=> 'Anda tidak diijinkan untuk mengakses file ini.',
 	'NO_ACTION'					=> 'Tidak ada tindakan yang ditentukan.',
 	'NO_ADMINISTRATORS'			=> 'Tidak ada administrator.',
-	'NO_AUTH_ADMIN'				=> 'Akses ke Papan Pengaturan Administrator tidak diijinkan karena anda tidak memiliki ijin administrasi.',
 	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Anda tidak dapat mengotentifikasi ulang sebagai pengguna yang lain.',
 	'NO_AUTH_OPERATION'			=> 'Anda tidak memiliki ijin yang dibutuhkan untuk menyelesaikan operasi ini.',
 	'NO_AVATARS'				=> 'Tidak ada Avatar yang tersedia',
@@ -592,7 +586,6 @@ $lang = array_merge($lang, array(
 	'POST_DAY'				=> '%.2f post perhari',
 	'POST_DELETED_ACTION'	=> 'Posting dihapus:',
 	'POST_DELETED'			=> 'Posting ini telah dihapus.',
-	'POST_DELETED_BY'		=> '<strong>%2$s</strong> Dihapus oleh <strong>%1$s</strong> tanggal: %3$s.',
 	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> Dihapus oleh <strong>%1$s</strong> tanggal: %3$s dengan alasan: %4$s',
 	'POST_DETAILS'			=> 'Keterangan post',
 	'POST_NEW_TOPIC'		=> 'Postkan topik baru',
@@ -743,7 +736,6 @@ $lang = array_merge($lang, array(
 	'TIMEOUT_PROCESSING_REQ'			=> 'Permintaan berakhir.',
 
 	'TOO_LARGE'                  	=> 'Nilai yang anda masukkan terlalu besar.',
-	'TOO_LARGE_MAX_RECIPIENTS'      => 'Nilai dari pengaturan <strong>Jumlah maksimum dari penerima yang diijinkan per pesan pribadi</strong> terlalu besar.',
 
 	'TOO_LONG'						=> 'Nilai yang anda masukkan terlalu panjang.',
 
@@ -770,7 +762,6 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_EMAIL'				=> 'Alamat e-mail yang anda masukkan terlalu pendek.',
 	'TOO_SHORT_EMAIL_CONFIRM'		=> 'Konfirmasi alamat e-mail yang anda masukkan terlalu pendek.',
 	'TOO_SMALL'                  	=> 'Nilai yang anda masukkan terlalu kecil.',
-	'TOO_SMALL_MAX_RECIPIENTS'      => 'Nilai dari pengaturan <strong>Jumlah maksimum dari penerima yang diijinkan per pesan pribadi</strong> terlalu kecil.',
 
 	'TOPIC'				=> 'Topik',
 	'TOPICS'			=> 'Topik',

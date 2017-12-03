@@ -41,7 +41,6 @@ $lang = array_merge($lang, array(
 	'ACP_ADMIN_LOGS'			=> 'Log Admin',
 	'ACP_ADMIN_ROLES'			=> 'Peran admin',
 	'ACP_ATTACHMENTS'			=> 'Lampiran',
-	'ACP_ATTACHMENT_SETTINGS'	=> 'Pengaturan lampiran',
 	'ACP_AUTH_SETTINGS'			=> 'Otentifikasi',
 	'ACP_AUTOMATION'			=> 'Otomatisasi',
 	'ACP_AVATAR_SETTINGS'		=> 'Pengaturan Avatar',
@@ -84,7 +83,6 @@ $lang = array_merge($lang, array(
 
 	'ACP_DATABASE'				=> 'Manajemen database',
 	'ACP_DISALLOW'				=> 'Tolak',
-	'ACP_DISALLOW_USERNAMES'	=> 'Tolak nama pengguna',
 
 	'ACP_EMAIL_SETTINGS'		=> 'Pengaturan E-mail',
 	'ACP_EXTENSION_GROUPS'		=> 'Atur ekstensi grup',
@@ -92,10 +90,8 @@ $lang = array_merge($lang, array(
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Extension management',
 	'ACP_EXTENSIONS'			=> 'Kelola Ekstensi',
 
-	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Perizinan Dasar forum',
 	'ACP_FORUM_LOGS'				=> 'Log forum',
 	'ACP_FORUM_MANAGEMENT'			=> 'Manajemen forum',
-	'ACP_FORUM_MODERATORS'			=> 'Forum moderator',
 	'ACP_FORUM_PERMISSIONS'			=> 'Perizinan Forum',
 	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Salin Perizinan Forum',
 	'ACP_FORUM_ROLES'				=> 'Peranan forum',
@@ -153,7 +149,6 @@ $lang = array_merge($lang, array(
 	'ACP_PERMISSION_TRACE'		=> 'Jejak Perizinan',
 	'ACP_PHP_INFO'				=> 'Informasi PHP',
 	'ACP_POST_SETTINGS'			=> 'Pengaturan Posting',
-	'ACP_PRUNE_FORUMS'			=> 'Kurangi Forum',
 	'ACP_PRUNE_USERS'			=> 'Kurangi pengguna',
 	'ACP_PRUNING'				=> 'Pengurangan',
 
@@ -190,7 +185,6 @@ $lang = array_merge($lang, array(
 	'ACP_THEMES'				=> 'Tema',
 
 	'ACP_UPDATE'					=> 'Memperbaharui',
-	'ACP_USERS_FORUM_PERMISSIONS'	=> 'perizinan forum pengguna',
 	'ACP_USERS_LOGS'				=> 'Log pengguna',
 	'ACP_USERS_PERMISSIONS'			=> 'Perizinan Pengguna',
 	'ACP_USER_ATTACH'				=> 'Lampiran',
@@ -211,11 +205,6 @@ $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS'					=> 'Pengaturan Anti Spambot',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Tampilan gambar CAPTCHA',
 	'ACP_VERSION_CHECK'					=> 'Periksa update',
-	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Lihat perizinan administrasi',
-	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Lihat perizinan moderasi forum',
-	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Lihat perizinan dasar forum',
-	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Lihat perizinan moderasi global',
-	'ACP_VIEW_USER_PERMISSIONS'			=> 'Lihat perizinan dasar pengguna',
 
 	'ACP_WORDS'					=> 'Sensor kata',
 
@@ -320,9 +309,6 @@ $lang = array_merge($lang, array(
 	'SELECT_OPTION'			=> 'Gunakan pilihan',
 
 	'SETTING_TOO_LOW'		=> 'Nilai yang dimasukkan untuk pengaturan "%1$s" terlalu rendah. Nilai minimalnya adalah %2$d.',
-	'SETTING_TOO_BIG'		=> 'Nilai yang dimasukkan untuk pengaturan "%1$s" terlalu besar. Nilai maksimal yang diijinkan adalah %2$d.',
-	'SETTING_TOO_LONG'		=> 'Nilai yang dimasukkan untuk pengaturan "%1$s" terlalu panjang. Panjang maksimal yang diijinkan adalah %2$d.',
-	'SETTING_TOO_SHORT'		=> 'Nilai yang dimasukkan untuk pengaturan "%1$s" is not long enough. Panjang minimal yang diijinkan adalah %2$d.',
 
 	'SHOW_ALL_OPERATIONS'	=> 'Tampilkan semua operasi',
 
@@ -458,7 +444,6 @@ $lang = array_merge($lang, array(
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Instalasi phpBB Anda tidak up-to-date.',
 	'VERSION_UP_TO_DATE_ACP'		=> 'Instalasi phpBB Anda up-to-date. Tidak ada pembaruan yang tersedia saat ini.',
 	'VIEW_ADMIN_LOG'				=> 'Lihat log Administrator',
-	'VIEW_INACTIVE_USERS'			=> 'LIhat pengguna tidak aktif',
 
 	'WELCOME_PHPBB'			=> 'Selamat datang di phpBB',
 	'WRITABLE_CONFIG'		=> 'File konfigurasi anda (config.php) bisa ditulisi sekarang ini. Kami sangat menyarankan untuk mengubah perizinan file tersebut menjadi 640 atau paling tidak menjadi 644 (sebagai contoh: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',

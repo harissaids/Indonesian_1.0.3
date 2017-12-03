@@ -151,15 +151,12 @@ $lang = array_merge($lang, array(
 	'HOLD_NEW_MESSAGES'			=> 'Tahan pesan baru',
 	'PM_EDIT_TIME'				=> 'Batasi waktu pengubahan',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Batas waktu tersedia untuk mengubah sebuah pesan pesan pribadi belum terkirim. Gunakan nilai 0 untuk menonaktifkan fasilitas ini.',
-	'PM_MAX_RECIPIENTS'			=> 'Jumlah maksimum penerima yang diijinkan',
-	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'Jumlah maksimum anggota yang diijinkan dalam sebuah pesan pribadi. Jika nilai yang dimasukkan 0 maka jumlah anggota yang diijinkan menjadi tidak terbatas. Pengaturan ini dapat dibuat untuk setiap grup pada halaman pengaturan grup.',
 ));
 
 // Posting Settings
 $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Di sini anda dapat membuat pengaturan default untuk posting.',
 	'ALLOW_POST_LINKS'					=> 'Izinkan links dipost/pesan pribadi',
-	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Jika <code>[URL]</code> BBCode tidak diijinkan maka URL otomatis juga tidak dapat digunakan.',
 	'ALLOWED_SCHEMES_LINKS'				=> 'Izinkan Skema dalam tautan',
 	'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> 'Pengguna hanya dapat memposting url tanpa skema atau daftar skema yang diizinkan dibatas dengan tanda koma.',
 	'ALLOW_POST_FLASH'					=> 'Izinkan penggunaan <code>[FLASH]</code> BBCode di post',
@@ -168,7 +165,6 @@ $lang = array_merge($lang, array(
 	'BUMP_INTERVAL'					=> 'Selang waktu penggeseran',
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Jumlah menit, jam atau hari antar post yang terakhir untuk sebuah topik dan kemampuan untuk menggeser topik ini. Dengan mengubah pengaturan menjadi 0 akan menonaktifkan fitur penggeseran topik secara keseluruhan.',
 	'CHAR_LIMIT'					=> 'Jumlah maksimum karakter per post',
-	'CHAR_LIMIT_EXPLAIN'			=> 'Jumlah karakter yang diijinkan dalam sebuah post. Gunakan nilai 0 untuk tidak membatasi jumlah karakter.',
 	'DELETE_TIME'					=> 'Batas waktu penghapusan',
 	'DELETE_TIME_EXPLAIN'			=> 'Memberikan batas waktu untuk menghapus post. Atur nilainya menjadi 0 untuk menonaktifkan.',
 	'DISPLAY_LAST_EDITED'			=> 'Tampilkan informasi waktu pengubahan terakhir',
@@ -181,7 +177,6 @@ $lang = array_merge($lang, array(
 	'HOT_THRESHOLD_EXPLAIN'			=> 'Posting-post per topik terdepan untuk topik yang populer. Gunakan 0 untuk menonaktifkan topik populer.',
 	'MAX_POLL_OPTIONS'				=> 'Jumlah maksimum pilihan pemungutan suara',
 	'MAX_POST_FONT_SIZE'			=> 'Ukuran maksimum huruf per post',
-	'MAX_POST_FONT_SIZE_EXPLAIN'	=> 'Ukuran maksimum huruf yang diijinkan di post. Gunakan 0 untuk ukuran huruf yang tidak terbatas.',
 	'MAX_POST_IMG_HEIGHT'			=> 'Ukuran maksimum gambar',
 	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Tinggu ukuran maksimum gambar/file flash dalam post. Gunakan 0 untuk ukuran yang tidak terbatas.',
 	'MAX_POST_IMG_WIDTH'			=> 'Lebar maksimum gambar per post',
@@ -205,7 +200,6 @@ $lang = array_merge($lang, array(
 	'ACP_SIGNATURE_SETTINGS_EXPLAIN'	=> 'Di sini anda dapat membuat pengaturan default untuk tanda tangan.',
 
 	'MAX_SIG_FONT_SIZE'				=> 'Ukuran huruf maksimum tanda tangan',
-	'MAX_SIG_FONT_SIZE_EXPLAIN'		=> 'Ukuran huruf maksimum yang diijinkan dalam tanda tangan pengguna. Gunakan 0 untuk ukuran huruf yang tidak terbatas.',
 	'MAX_SIG_IMG_HEIGHT'			=> 'Tinggi ukuran maksimum gambar tanda tangan',
 	'MAX_SIG_IMG_HEIGHT_EXPLAIN'	=> 'Tinggi maksimum dari sebuah gambar/file flash di tanda tangan pengguna. Gunakan 0 untuk ukuran tinggi yang tidak terbatas.',
 	'MAX_SIG_IMG_WIDTH'				=> 'Lebar maksimum ukuran gambar tanda tangan',
@@ -213,7 +207,6 @@ $lang = array_merge($lang, array(
 	'MAX_SIG_LENGTH'				=> 'Panjang maksimum tanda tangan',
 	'MAX_SIG_LENGTH_EXPLAIN'		=> 'Jumlah karakter maksimum pada tanda tangan pengguna.',
 	'MAX_SIG_SMILIES'				=> 'Jumlah maksimum tanda Smiley per tanda tangan',
-	'MAX_SIG_SMILIES_EXPLAIN'		=> 'Jumlah maksimum tanda Smiley yang diijinkan dalam tanda tangan pengguna. Gunakan 0 untuk jumlah tanda Smiley yang tidak terbatas.',
 	'MAX_SIG_URLS'					=> 'Jumlah link maksimum tanda tangan',
 	'MAX_SIG_URLS_EXPLAIN'			=> 'Jumlah link maksimum dalam tanda tangan pengguna. Gunakan 0 untuk jumlah link yang tidak terbatas.',
 ));
@@ -226,7 +219,6 @@ $lang = array_merge($lang, array(
 	'ACC_ACTIVATION_EXPLAIN'		=> 'Di sini ditentukan pengguna yang langsung memiliki akses ke halaman atau jika konfirmasi dibutuhkan. Anda juga dapat menonaktifkan pendaftaran baru sepenuhnya.',
 	'ACC_ACTIVATION_WARNING'		=> 'Catatan, Metode aktifasi yang dipilih saat ini memerlukan pengaktifan fitur email, Jika tidak pendaftaran baru akan non-aktif. Kami menyaraknkan untuk memilih metode yang lain atau mengaktifkan ulang fitur email.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Batas post anggota baru',
-	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Anggota baru yang termasuk grup <em>Pengguna Terdaftar Terbaru</em> sampai mereka mencapai jumlah post ini. Anda bisa menggunakan grup ini agar bisa menjaga penggunaan sistem PM ataupun meninjau pesan mereka. <strong>Nilai ) untuk menonaktifkan fitur ini.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Set grup Pengguna Terdaftar Terbaru Newly Registered ke default',
 	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Jika anda memilih ya dan batas post anggota baru ditentukan, pengguna terdaftar terbaru tidak hanya ditempatkan pada grup <em>Pengguna Terdaftar Terbaru</em>, tetapi juga grup ini menjadi grup default mereka. Ini akan menjadi lebih mudah jika anda ingin menentukan ranking/avatar grup default yang akan dimiliki.',
 
@@ -523,7 +515,6 @@ $lang = array_merge($lang, array(
 	'IP_VALID_EXPLAIN'				=> 'Menentukan berapa banyak IP pengguna untuk mengesahkan sesi; <samp>Semua</samp> membandingkan alamat lengkap, <samp>A.B.C</samp> pertama x.x.x, <samp>A.B</samp> pertama x.x, <samp>Tidak</samp> menonaktifkan pemeriksaan. Pada alamat IPv6 <samp>A.B.C</samp> membandingkan 4 blok pertama dan <samp>A.B</samp> 3 blok pertama.',
 
        'IP_LOGIN_LIMIT_MAX'         			=> 'Jumlah maksimum percobaan masuk per alamat IP',
-       'IP_LOGIN_LIMIT_MAX_EXPLAIN'   			=> 'Batas ambang percobaan masuk yang diijinkan dari sebuah alamat IP tunggal sebeum anti-spambot digunakan. Masukkan 0 untuk mencegah penggunaan anti-spambot yang disebabkan oleh alamat IP.',
        'IP_LOGIN_LIMIT_TIME'         			=> 'Batas waktu percobaan masuk alamat IP',
        'IP_LOGIN_LIMIT_TIME_EXPLAIN'   			=> 'Percobaan masuk akan berakhir setelah periode ini, dalam detik.',
        'IP_LOGIN_LIMIT_USE_FORWARDED'   		=> 'Batas percobaan masuk oleh header <var>X_FORWARDED_FOR</var>',
