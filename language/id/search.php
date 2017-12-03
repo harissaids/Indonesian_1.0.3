@@ -70,6 +70,7 @@ $lang = array_merge($lang, array(
 
 	'NO_KEYWORDS'			=> 'Anda harus menetukan paling sedikitnya satu kata untuk dicari. Setiap kata paling sedikitnya harus terdiri dari %s karakter dan tidak melebihi %s karakter termasuk wildcard.',
 	'NO_RECENT_SEARCHES'	=> 'Tidak ada pencarian yang dimuat akhir ini.',
+	'NO_SEARCH'				=> 'Maaf, anda tidak diizinkan untuk menggunakan sistem pencarian.',
 	'NO_SEARCH_RESULTS'		=> 'Pencarian tidak ditemukan.',
 	'NO_SEARCH_LOAD'		=> 'Maaf, anda tidak bisa menggunakan pencarian saat ini. Silahkan coba lagi dalam beberapa menit.',
 	'NO_SEARCH_TIME'		=> array(
@@ -80,11 +81,13 @@ $lang = array_merge($lang, array(
 	'WORD_IN_NO_POST'		=> 'Tidak ada post yang ditemukan karena kata pencarian <strong>%s</strong> tidak ditemukan di post lainnya.',
 	'WORDS_IN_NO_POST'		=> 'Tidak ada post yang ditemukan karena kata-kata pencarian <strong>%s</strong> tidak ditemukan di post lainnya.',
 
+	'POST_CHARACTERS'		=> 'Karakter per posting',
 	'PHRASE_SEARCH_DISABLED'	=> 'Pencarian menurut frasa yang tepat tidak didukung di forum ini.',
 
 	'RECENT_SEARCHES'		=> 'Pencarian-pencarian terakhir',
 	'RESULT_DAYS'			=> 'Batas hasil',
 	'RESULT_SORT'			=> 'Pencarian berdasarkan',
+	'RETURN_FIRST'			=> 'Utamakan yang memiliki',
 	'GO_TO_SEARCH_ADV'	=> 'ke pencarian lanjutan',
 
 	'SEARCHED_FOR'				=> 'Cari istilah yang digunakan',

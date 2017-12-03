@@ -260,6 +260,8 @@ $lang = array_merge($lang, array(
 		2	=> 'Jumlah maksimum yg diperbolehkan %1$d karakter.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Anda telah mencoba memasukkan pilihan-pilihan pemungutan suara yang cukup banyak.',
+	'TOO_MANY_SMILIES'			=> 'Pesan anda mengandung tanda Smiley yang terlalu banyak. Jumlah maksimum tanda Smiley yang diizinkan adalah %d.',
+	'TOO_MANY_URLS'				=> 'Pesan anda mengandung URL yang terlalu banyak. Jumlah maksimum URL yang diizinkan adalah %d.',
 	'TOO_MANY_USER_OPTIONS'		=> 'Anda tidak boleh menentukan pilihan yang lebih banyak daripada pilihan pemungutan suara yang ada.',
 	'TOPIC_BUMPED'				=> 'Topik telah berhasil digeser.',
 
@@ -281,5 +283,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sLihat pesan yang anda ajukan%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sLihat pesan pribadi yang anda ajukan%s',
 
+	'WRONG_FILESIZE'			=> 'Ukuran file terlalu besar, ukuran maksimum yang diizinkan adalah %1$d %2$s.',
 	'WRONG_SIZE'				=> 'Ukuran lebar gambar yang paling kecil harus %1$s piksel dengan tinggi %2$s piksel dan ukuran lebar gambar paling besar adalah %3$s piksel dengan tinggi %4$a. Ukuran lebar gambar yang diajukan adalah %5$s piksel dengan tinggi %6$s piksel.',
 ));

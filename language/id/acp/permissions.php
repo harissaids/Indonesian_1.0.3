@@ -42,6 +42,7 @@ $lang = array_merge($lang, array(
 		<h2>Perizinan Global</h2>
 		<p>perizinan ini digunakan untuk mengatur akses untuk tingkat global dan dipergunakan pada seluruh halaman. perizinan ini dibagi atas perizinan Pengguna, perizinan Grup, perizinan Administrator dan perizinan Moderator Global.</p>
 
+		<h2>Perizinan Dasar Forum</h2>
 		<p>perizinan ini digunakan untuk mengatur akses untuk setiap dasar forum. perizinan ini dibagi atas perizinan Forum, perizinan Moderator Forum, perizinan Forum Pengguna dan perizinan Forum Grup.</p>
 
 		<h2>Peran perizinan</h2>
@@ -201,6 +202,9 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Hanya bisa menggunakan alat-alat dasar topik. Tidak dapat mengirimkan peringatan atau menggunakan antrian moderasi.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Bisa menggunakan kebanyakan alat-alat moderasi, tetapi tidak dapat melarang pengguna ataupun mengubah pengarang post.',
 	'ROLE_DESCRIPTION_USER_FULL'			=> 'Bisa menggunakan semua fitur forum yang tersedia untuk pengguna, termasuk mengubah nama pengguna ataupun mengabaikan batas flood.<br />Tidak disarankan.',
+	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Bisa mengakses beberap fitur pengguna. Lampiran, e-mail, ataupun pesan singkat tidak diizinkan.',
+	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Memiliki sekumpulan fitur-fitur terbatas dan tidak diizinkan untuk menggunakan fitur avatar.',
+	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Memiliki sekumpulan fitur-fitur terbatas dan tidak diizinkan untuk menggunakan perpesanan pribadi.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Bisa mengakses hampir semua fitur pengguna. Tidak bisa mengganti nama pengguna ataupun mengabaikan batas flood, sebagai contohnya.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Sebuah peran untuk anggota spesial dari grup pengguna baru terdaftar; <samp>TIDAK AKAN</samp> memiliki perizinan fitur pengunci untuk pengguna baru.',
 
@@ -244,6 +248,9 @@ $lang = array_merge($lang, array(
 	'TRACE_RESULT'					=> 'Lacak hasil',
 	'TRACE_SETTING'					=> 'Lacak pengaturan',
 
+	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'Perizinan pengguna forum mandiri mengevaluasikan ke <samp>YA</samp> tetapi perizinan totalnya seudah dibuat menjadi <samp>YA</samp>, sehingga hasil totalnya masih tersimpan. %sLacak Perizinan Global%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'Perizinan pengguna forum mandiri mengevaluasikan ke <samp>YA</samp> yang akan menulisi hasil lokal sekarang <samp>NEVER</samp>. %sLacak Perizinan Global%s',
+	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'Perizinan pengguna forum mandiri mengevaluasikan ke <samp>JANGAN</samp> yang tidak akan mempengaruhi perizinan lokal. %sLacak Perizinan Global%s',
 
 	'TRACE_USER_FOUNDER'					=> 'Pengguna memiliki kumpulan tipe pendiri, oleh karena itu perizinan admin dibuat menjadi <samp>YA</samp> secara defaultnya.',
 	'TRACE_USER_KEPT'						=> 'perizinan pengguna adalah <samp>TIDAK</samp> sehingga nilai hasil total yang lama tersimpan.',

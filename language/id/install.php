@@ -428,6 +428,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Once downloaded you should unpack the archive. You will find the modified files you need to upload to your phpBB root directory within it. Please upload the files to their respective locations then. After you have uploaded all files, you may continue with the update process.',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'File sudah yang terbarukan.',
+	'FILE_DIFF_NOT_ALLOWED'			=> 'File tidak diizinkan untuk dibedakan.',
 	'FILE_USED'						=> 'Informasi yang digunakan dari',			// Single file
 	'FILES_CONFLICT'				=> 'File-file konflik',
 	'FILES_CONFLICT_EXPLAIN'		=> 'File berikut dimodifikasi dan bukan sebagai file asli dari versi yang lama. phpBB menentukan bahwa file-file ini menimbulkan konflik jika dicoba digabungkan. Silahkan diperiksa konflik tersebut dan cobalah menyelesaikan secara manual atau lanjutkan pembaruan dengan memilih metode penggabungan yang dikehendaki. Jika anda menyelesaikan konflik tersebut secara manual, silahkan periksa file-file tersebut kembali setelah anda memodifikasinya. Anda juga boleh memilih metode yang dikehendaki untuk menggabungkan setiap file. Yang pertama akan menghasilkan sebuah file dimana baris konflik dari file lama anda akan dihapus, sedangkan metode yang lain akan menghilangkan perubahan dari file yang baru.',

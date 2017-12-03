@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'BOT_LANG_EXPLAIN'	=> 'Bahasa yang ditampilkan untuk pada saat bot menggunakn halaman.',
 	'BOT_LAST_VISIT'	=> 'Kunjungan terakhir',
 	'BOT_IP'			=> 'Alamat IP bot',
+	'BOT_IP_EXPLAIN'	=> 'Sebagian nomor IP yang cocok diizinkan, atau sebagian alamat dengan tanda koma.',
 	'BOT_NAME'			=> 'Nama bot',
 	'BOT_NAME_EXPLAIN'	=> 'Gunakan hanya untuk informasi anda sendiri.',
 	'BOT_NAME_TAKEN'	=> 'Nama telah digunakan padap halaman anda dan tidak dapat digunakan untuk bot tersebut.',

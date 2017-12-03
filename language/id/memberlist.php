@@ -107,6 +107,7 @@ $lang = array_merge($lang, array(
 	'NO_CONTACT_FORM'		=> 'Fitur kontak admin telah di non-aktifkan.',
 	'NO_CONTACT_PAGE'		=> 'Fitur Halaman kontak admin telah di non-aktifkan.',
 
+	'NO_EMAIL'				=> 'Anda tidak diizinkan untuk mengirim e-mail kepengguna ini.',
 	'NO_VIEW_USERS'			=> 'Anda tidak berhak melihat daftar atau profil anggota.',
 
 	'ORDER'					=> 'Urutkan',
@@ -133,6 +134,7 @@ $lang = array_merge($lang, array(
 	'SORT_POST_COUNT'		=> 'Jumlah Posting',
 
 	'USERNAME_BEGINS_WITH'	=> 'Nama pengguna yang dimulai dengan',
+	'USER_ADMIN'			=> 'Kelola',
 	'USER_BAN'				=> 'Larang pengguna',
 	'USER_FORUM'			=> 'Statistik pengguna',
 	'USER_LAST_REMINDED'	=> array(

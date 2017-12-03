@@ -224,6 +224,8 @@ $lang = array_merge($lang, array(
 	'MERGE_TOPIC_ID'		=> 'Nomor identifikasi topik tujuan',
 	'MERGE_TOPICS'			=> 'Gabungkan topik-topik',
 	'MERGE_TOPICS_CONFIRM'	=> 'Apakah anda yakin ingin menggabungkan topik-topik yang dipilih?',
+	'MODERATE_FORUM'		=> 'Moderasi Forum',
+	'MODERATE_TOPIC'		=> 'Moderasi Topik',
 	'MODERATE_POST'			=> 'Moderasi Post',
 	'MOD_OPTIONS'			=> 'Pilihan-pilihan Moderator',
 	'MORE_INFO'				=> 'Informasi lebih lanjut',
@@ -409,6 +411,7 @@ $lang = array_merge($lang, array(
 
 	'VIEW_DETAILS'			=> 'Lihat keterangan',
 	'VIEW_PM'				=> 'Lihat pesan pribadi',
+	'VIEW_POST'				=> 'Lihat post',
 
 	'WARNED_USERS'			=> 'Pengguna yang diperingatkan',
 	'WARNED_USERS_EXPLAIN'	=> 'Ini adalah daftar pengguna dengan peringatan yang belum habis waktunya.',

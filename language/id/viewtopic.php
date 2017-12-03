@@ -67,6 +67,7 @@ $lang = array_merge($lang, array(
 	'FORK_TOPIC'			=> 'Salin topik',
 	'FULL_EDITOR'			=> 'Editor Lengkap',
 
+	'LINKAGE_FORBIDDEN'		=> 'Anda tidak diizinkan untuk melihat, mendownload ataupun memberi link dari/ke situs ini.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Anda telah diberitahukan mengenai topik ini, silahkan login untuk melihat.',
 	'LOGIN_VIEWTOPIC'		=> 'Halaman ini membutuhkan anda untuk terdaftar dan logged-in guna melihat topik ini.',
 
@@ -99,6 +100,7 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Kutipan',
 
 	'REPLY_TO_TOPIC'		=> 'Balas ke topik',
+	'RESTORE'				=> 'Pulihkan',
 	'RESTORE_TOPIC'			=> 'Pulihkan topik',
 	'RETURN_POST'			=> '%sKembali ke post%s',
 
