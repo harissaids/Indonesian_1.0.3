@@ -6,7 +6,7 @@
  * @version $Id: faq.php 2017 harissaids@gmail.com
  * @copyright (c) 2017 Harissaid Alewni http://www.triutama.com
  * @license GNU General Public License, version 2 (GPL-2.0)
- *  
+ *
  *
  */
 
@@ -27,17 +27,17 @@ $lang = array_merge($lang, array(
 
 //** Login and Registration issues ***//
 	'HELP_FAQ_BLOCK_LOGIN'	=> 'Masalah Login dan Pendaftaran',
-	'HELP_FAQ_LOGIN_REGISTER_QUESTION'	=> 'Kenapa saya harus mendaftar?',	
+	'HELP_FAQ_LOGIN_REGISTER_QUESTION'	=> 'Kenapa saya harus mendaftar?',
 	'HELP_FAQ_LOGIN_REGISTER_ANSWER'	=> 'Sebenarnya tidak harus, tergantung kepada admnistrator halaman apakah anda perlu mendaftar untuk mempostkan pesan. Akan tetapi; pendaftaran akan memberikan anda akses ke fitur tambahan yang tidak tersedia untuk pengguna tamu seperti gambar avatar yang bisa ditentukan sendiri, perpesanan pribadi, mengirim e-mail kepada sahabat, berlangganan grup pengguna, dsb. Hanya membutuhkan beberapa saat untuk pendaftaran sehingga disarankan agar anda mendaftar.',
 	'HELP_FAQ_LOGIN_COPPA_QUESTION'	=> 'Apa yang dimaksud dengan COPPA?',
 	'HELP_FAQ_LOGIN_COPPA_ANSWER'	=> 'COPPA, atau Child Online Privacy and Protection Act 1998, adalah suatu hukum di Amerika Serikat yang mengharuskan suatu website yang secara potensial bisa mengumpulkan informasi dari yang belum dewasa dibawah umur 13 tahun harus menulis persetujuan orang tua atau metode lain dari persetujuan orang tua yang legal, mengijinkan pengumpulan informasi secara pribadi yang dapat diidentifikasi dari yang bukan untuk dewasa di bawah umur 13 tahun. Jika anda tidak yakin terhadap seseorang yang mencoba mendaftar, atau website yang anda coba daftarkan, silahkan hubungi penasehat hukum untuk mendapatkan bantuan. Mohon dicatat bahwa phpBB Group tidak dapat memberikan saran resmi dan bukan merupakan suatu pusat informasi yang resmi tentang hal tersebut, except as outlined in question “Who do I contact about abusive and/or legal matters related to this board?”.',
 	'HELP_FAQ_LOGIN_CANNOT_REGISTER_QUESTION'	=> 'Kenapa saya tidak bisa mendaftar?',
 	'HELP_FAQ_LOGIN_CANNOT_REGISTER_ANSWER'	=> 'Kemungkinannya adalah pemilik website telah melarang alamat IP anda atau nama pengguna yang anda coba daftarkan. Pemilik website mungkin juga menonaktifkan pendaftaran untuk mencagah datangnya pengunjung yang baru untuk mendaftar. Silahkan hubungi administrator halaman untuk pertolongan.',
-	'HELP_FAQ_LOGIN_REGISTER_CONFIRM_QUESTION'	=> 'Saya sudah mendaftar tetapi tidak bisa masuk!',	
+	'HELP_FAQ_LOGIN_REGISTER_CONFIRM_QUESTION'	=> 'Saya sudah mendaftar tetapi tidak bisa masuk!',
 	'HELP_FAQ_LOGIN_REGISTER_CONFIRM_ANSWER'	=> 'Pertama, periksa nama pengguna dan kata sandi anda. Jika sudah benar, maka satu dari dua hal bisa terjadi. Jika fasililtas COPPA diaktifkan dan anda ditentukan berumur dibawah 13 tahun pada saat pendaftaran, anda harus mengikuti instruksi yang anda terima. Beberapa halaman juga membutuhkan pendaftaran baru tersebut diaktivasi, dengan anda sendiri atau dengan administrator sebelum anda bisa masuk; informasi ini diberitahukan pada saat pendaftaran. Jika anda dikirim e-mail, ikutilah petunjuk tersebut. Jika anda tidak menerima e-mail, anda harus memberikan alamat e-mail yang benar atau e-mail tersebut telah dimasukkan ke dalam daftar spam. Jika anda yakin alamat e-mail yang anda berikan tersebut benar, silahkan coba hubungi administrator.',
 	'HELP_FAQ_LOGIN_CANNOT_LOGIN_QUESTION'	=> 'Kenapa saya tidak dapat masuk?',
 	'HELP_FAQ_LOGIN_CANNOT_LOGIN_ANSWER'	=> 'Ada beberapa alasan mengapa ini terjadi. Pertama, pastikan nama pengguna dan kata sandi anda sudah benar. Jika memang sudah benar, silahkan hubungi pemilik halaman untuk meyakinkan bahwa anda tidak sedang dilarang. Kemungkinan lainnya adalah pemilik website memiliki konfigurasi yang mengakibatkan error, sehingga mereka perlu memperbaikinya.',
-	'HELP_FAQ_LOGIN_CANNOT_LOGIN_ANYMORE_QUESTION'	=> 'Saya sudah mendaftar sebelumnya tetapi tidak bisa masuk?!',	
+	'HELP_FAQ_LOGIN_CANNOT_LOGIN_ANYMORE_QUESTION'	=> 'Saya sudah mendaftar sebelumnya tetapi tidak bisa masuk?!',
 	'HELP_FAQ_LOGIN_CANNOT_LOGIN_ANYMORE_ANSWER'	=> 'Ada kemungkinan Administrtor telah menon-aktifkan atau menghapus akun Anda dengan beberapa alasan, Juga banyak forum yang secara berkala menghapus pengguna yang sudah lama tidak memposting untuk memperkecil ukuran database. Jika ini terjadi, coba untuk mendaftar ulang dan aktif dalam diskusi yang ada.',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_QUESTION'	=> 'Saya kehilangan kata sandi!',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_ANSWER'	=> 'Jangan panik! Ketika kata sandi anda tidak bisa diperoleh kembali, maka dengan mudahnya bisa di reset. Kunjungi halaman masuk dan klik <em>Saya lupa kata sandi</em>. Ikuti instruksinya maka anda bisa masuk lagi secepatnya.',
@@ -71,44 +71,44 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_BLOCK_POSTING'	=> 'Masalah Posting',
 	'HELP_FAQ_POSTING_BUMP_QUESTION'	=> 'Bagaimana saya menggeser topik saya?',
 	'HELP_FAQ_POSTING_BUMP_ANSWER'	=> 'Dengan mengklik link “Geser topik” pada saat anda melihat topik tersebut, anda bisa “menggeser” topik pada bagian atas forum di halaman pertama. Akan tetapi, jika anda tidak melihatnya, maka penggeseran topik tidak diaktifkan atau selang waktu untuk menggeser topik tersebut belum tercapai. Juga memungkinkan untuk menggeser topik secara mudah dengan membalas topiknya, akan tetapi, yakinkan untuk mengikuti peraturan halaman pada saat melakukannya.',
-	
+
 	'HELP_FAQ_POSTING_CREATE_QUESTION'	=> 'Bagaimana membuat topik baru dan membalas posting?',
 	'HELP_FAQ_POSTING_CREATE_ANSWER'	=> 'Untuk membuat posting baru di forum, pilih "Topik baru". Untuk membalas posting di topik, Klik "Balas". Anda harus tedaftar sebelum memposting. Daftar perizinan Anda berada disebelah kiri bawah setiap halaman forum topik. misal: Anda dapat membuat topik baru, Anda dapat melampirkan file dalam posting, dst.',
-	
+
 	'HELP_FAQ_POSTING_DRAFT_QUESTION'	=> 'Apa kegunaan tombol "Simpan" pada posting topik?',
 	'HELP_FAQ_POSTING_DRAFT_ANSWER'	=> 'Tombol memungkinkan Anda untuk menyimpan sepenggal pesan untuk dilengkapi dan diajukan pada waktu yang akan datang. Untuk membuka pesan yang telah disimpan. Untuk membuka naskah yang disimpan, kinjungi Panel Pengaturan Pengguna.',
-	
+
 	'HELP_FAQ_POSTING_EDIT_DELETE_QUESTION'	=> 'Bagaimana mengubah atau menghapus sebuah post?',
 	'HELP_FAQ_POSTING_EDIT_DELETE_ANSWER'	=> 'Anda hanya bisa mengubah dan menghapus post anda, kecuali anda adalah seorang administrator halaman atapun moderator. Anda dapat mengubah sebuah post dengan mengklik tombol ubah untuk post yang relevan, terkadang hanya bisa dalam waktu yang terbatas setelah post tersebut dibuat. Jika seseorang sudah membalas post tersebut, anda akan menemukan kotak kecil berisi teks yang ditampilkan di bawah post pada saat anda kembali ke topik, yang akan ditampilkan daftar jumlah anda mengubah post tersebut beserta waktu dan tanggalnya. Ini hanya muncul apabila seseorang sudah membuat balasan, tetapi tidak akan muncul jika moderator ataupun administrator mengubah post tersebut, meskipun mereka mungkin meninggalkan sepenggal catatan mengapa mereka mengubah post tersebut. Mohon dicatat bahwa pengguna biasa tidak dapat menghapus post setelah seseorang membuat balasan.',
-	
+
 	'HELP_FAQ_POSTING_FORUM_RESTRICTED_QUESTION'	=> 'Kenapa saya tidak dapat mengakses sebuah forum?',
 	'HELP_FAQ_POSTING_FORUM_RESTRICTED_ANSWER'	=> 'Beberap forum mungkin hanya terbatas untuk pengguna ataupun grup tertentu. Untuk melihat, membaca, membuat post atau melakukan tindakan lain yang mungkin anda butuhkan untuk perijinan yang spesial, hubungi moderator administrator halaman untuk mendapatkan akses.',
-	
+
 	'HELP_FAQ_POSTING_NO_ATTACHMENTS_QUESTION'	=> 'Kenapa saya tidak bisa menambahkan lampiran?',
 	'HELP_FAQ_POSTING_NO_ATTACHMENTS_ANSWER'	=> 'Perijinan lampiran diberikan per forum, per grup, atau per basis pengguna. Administrator mungkin tidak mengijinkan lampiran ditambahkan untuk forum tertentu yang anda posting, atau mungkin hanya beberapa grup yang bisa mempostkan lampiran. Hubungi administrator halaman jika anda tidak yakin kenapa anda tidak dapat menambahkan lampiran.',
-	
+
 	'HELP_FAQ_POSTING_POLL_ADD_QUESTION'	=> 'Mengapa saya tidak dapat menambah pilihan pemungutan suara yang lain?',
 	'HELP_FAQ_POSTING_POLL_ADD_ANSWER'	=> 'Batas untuk pemungutan suara tersebut diatur oleh administrator halaman. Jika anda rasa ingin menambahkan pilihan yang lain untuk pemungutan suara anda melebihi jumlah pilihan yang diijinkan, silahkan hubungi administrator halaman.',
-	
+
 	'HELP_FAQ_POSTING_POLL_CREATE_QUESTION'	=> 'Bagaimana saya membuat pemungutan suara?',
 	'HELP_FAQ_POSTING_POLL_CREATE_ANSWER'	=> 'Pada saat anda membuat topik baru ataupun mengubah post pertama pada topik, kliklah tab “Penciptaan Pemungutan Suara” di bawah halaman posting; jika anda tidak melihat tab tersebut, maka anda tidak memiliki perijinan untuk membuat pemungutan suara. Masukkan sebuah judul dan paling sedikit dua pilihan pada isian yang sesuai, yakinkan bahwa setiap pilihan dipisahkan oleh baris baru pada area teks. Anda juga dapat memasukkan sejumlah pilihan yang bisa dipilih oleh pengguna selama pemungutan suara pada “Pilihan per pengguna”, batas waktu dalam hari untuk pemungutan suara (0 untuk waktu yang tidak terbatas) dan terakhir adalah pilihan untuk pengguna apakah bisa mengubah suara mereka.',
-	
+
 	'HELP_FAQ_POSTING_POLL_EDIT_QUESTION'	=> 'Bagaimana mengubah atau menghapus sebuah pemungutan suara?',
 	'HELP_FAQ_POSTING_POLL_EDIT_ANSWER'	=> 'Seperti pada post, pemungutan suara hanya dapat diubah oleh pembuatnya, moderator ataupun administrator. Untuk mengubah pemungutan suara, klik ubah post pertama pada topik; post tersebut memiliki hubungan dengan pemungutan suara. Jika tidak satu orangpun memberikan suaranya, pengguna dapat menghapus pemungutan suara atau mengubah pemungutan suara tersebut. Akan tetapi, jika pengguna sudah memberikan suaranya, hanya administrator ataupun moderator yang bisa mengubah ataupun menghapus post tersebut. Ini mencegah agar pemungutan suara tersebut tidak diubah di tengah perjalanan.',
-	
+
 	'HELP_FAQ_POSTING_QUEUE_QUESTION'	=> 'Kenapa post saya perlu disetujui?',
 	'HELP_FAQ_POSTING_QUEUE_ANSWER'	=> 'Administrator halaman bisa memutuskan post dalam forum yang anda posting tersebut yang membutuhkan pemeriksaan sebelum diperlihatkan. Administrator juga mungkin telah menempatkan anda pada suatu grup pengguna yang membutuhkan pemeriksaan sebelum post tersebut ditampilkan. Silahkan hubungi administrator halaman untuk informasi lebih lanjut.',
-	
+
 	'HELP_FAQ_POSTING_REPORT_QUESTION'	=> 'Bagaimana saya bisa melaporkan posting ke moderator?',
 	'HELP_FAQ_POSTING_REPORT_ANSWER'	=> 'Jika administrator halaman mengaktifkan fasilitas tersebut, anda akan melihat tombol untuk melaporkan post di sebelah post yang ingin anda laporankan. Dengan mengkliknya, maka akan membawa anda pada tahap yang diperlukan untuk melaporkan post tersebut.',
-	
+
 	'HELP_FAQ_POSTING_SIGNATURE_QUESTION'	=> 'Bagaimana menambahkan tanda tangan di post saya sendiri?',
 	'HELP_FAQ_POSTING_SIGNATURE_ANSWER'	=> 'Untuk menambahkan tanda tangan pada post anda, anda harus membuatnya terlebih dahulu melalui Papan Pengaturan Pengguna. Setelah dibuat, anda bisa mencentang kotak <em>Tampilkan tanda tangan</em> pada halaman posting untuk menambahkan tanda tangan anda. Anda juga bisa menambahkan tanda tangan untuk semua post anda dengan mencentang tombol radio yang berhubungan pada profil anda. Jika anda melakukan hal tersebut, anda masih bisa mengembalikan tanda tangan yang ditambahkan ke dalam post dengan tidak mencentang kotak tambahkan tanda tangan pada halaman posting.',
-	
+
 	'HELP_FAQ_POSTING_WARNING_QUESTION'	=> 'Kenapa saya mendapatkan peringatan?',
 	'HELP_FAQ_POSTING_WARNING_ANSWER'	=> 'Setiap administrator halaman memiliki pengaturannya masing-masing untuk situs mereka. Jika anda sudah melanggar peraturan, maka anda akan diberikan peringatan. Silahkan dicatat bahwa hal tersebut adalah keputusan administrator halaman, dan phpBB Group tidak terlibat dengan peringatan yang diberikan situs tersebut. Hubungi administrator halaman jika anda tidak yakin tentang peringatan anda tersebut.',
 
-	
+
 //** Formating and Topic Types **//
 	'HELP_FAQ_BLOCK_FORMATTING'	=> 'Format dan tipe Topik',
 	'HELP_FAQ_FORMATTING_ANNOUNCEMENT_QUESTION'	=> 'Apa yang dimaksud dengan pengumuman?',
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 
 	'HELP_FAQ_FORMATTING_STICKIES_QUESTION'	=> 'Apa yang dimaksud dengan topik sticky?',
 	'HELP_FAQ_FORMATTING_STICKIES_ANSWER'	=> 'Topik sticky yang berada dalam forum ditampilkan di bawah pengumuman dan hanya pada halaman pertama. Terkadang sangat penting sehingga anda harus membacanya sebisa mungkin. Seperti pengumuman dan pengumuman global, perijinan topik sticky diberikan oleh administrator halaman.',
-	
+
 	'HELP_FAQ_BLOCK_GROUPS'	=> 'Tingkat Pengguna dan Grup',
 
 	'HELP_FAQ_GROUPS_ADMINISTRATORS_QUESTION'	=> 'Apa yang dimaksud dengan Administrator?',
@@ -163,7 +163,7 @@ $lang = array_merge($lang, array(
 
 	'HELP_FAQ_GROUPS_USERGROUPS_LEAD_QUESTION'	=> 'Bagaimana saya bisa menjadi pemimpin grup?',
 	'HELP_FAQ_GROUPS_USERGROUPS_LEAD_ANSWER'	=> 'Seorang pemimpin grup biasanya ditetapkan pada saat awal grup pengguna diciptakan oleh administrator halaman. Jika anda berniat untuk membuat grup pengguna, hal yang pertama anda lakukan adalah menghubungi administrator; cobalah untuk mengirim pesan pribadi.',
-	
+
 	'HELP_FAQ_BLOCK_PMS'	=> 'Pesan Pribadi',
 
 	'HELP_FAQ_PMS_CANNOT_SEND_QUESTION'	=> 'Saya tidak dapat mengirim pesan pribadi!',
@@ -174,7 +174,7 @@ $lang = array_merge($lang, array(
 
 	'HELP_FAQ_PMS_UNWANTED_QUESTION'	=> 'Saya selalu menerima pesan yang tidak diinginkan!',
 	'HELP_FAQ_PMS_UNWANTED_ANSWER'	=> 'Anda bisa memblokir pengguna mengirim pesan pribadi kepada anda dengan menggunakan peraturan pesan dalam Papan Pengaturan Pengguna. Jika anda menerima pesan pribadi yang berisi penghinaan dari pengguna tertentu, silahkan beritahukan administrator halaman; mereka memiliki kuasa untuk mencegah pengguna mengirimkan pesan pribadi.',
-	
+
 
 	'HELP_FAQ_BLOCK_FRIENDS'	=> 'Teman dan Lawan',
 
@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 
 	'HELP_FAQ_FRIENDS_MANAGE_QUESTION'	=> 'Bagaiaman saya menambahkan/menyingkirkan pengguna dari daftar Teman dan Lawan?',
 	'HELP_FAQ_FRIENDS_MANAGE_ANSWER'	=> 'Anda dapat menambahkan pengguna ke dalam daftar dengan dua cara. Pada setiap profil pengguna, ada sebuah link untuk menambahkan mereka ke dalam daftar Teman dan Lawan anda. Selain itu, dari Papan Pengaturan Pengguna, anda secara langsung dapat menambahkan dengan memasukkan nama anggota mereka. Anda juga dapat menyingkirkan pengguna dari daftar dengan menggunakan halaman yang sama.',
-	
+
 	'HELP_FAQ_BLOCK_SEARCH'	=> 'Pencarian Forum',
 
 	'HELP_FAQ_SEARCH_FORUM_QUESTION'	=> 'Bagaimana saya mencari forum?',
@@ -203,7 +203,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_SEARCH_OWN_ANSWER'	=> 'Post anda dapat dilihat kembali dengan mengklik “Cari post pengguna” dalam Papan Pengaturan Pengguna atau pada halaman profil anda. Untuk mencari topik anda sendiri, gunakan pencarian tingkat lanjut dan isikan berbagai macam pilihan lain yang sesuai.',
 
 	'HELP_FAQ_BLOCK_BOOKMARKS'	=> 'Berlangganan Topik dan Penunjuk Halaman',
-	
+
 	'HELP_FAQ_BOOKMARKS_DIFFERENCE_QUESTION'	=> 'Apa perbedaan antara penunjuk halaman dan berlangganan?',
 	'HELP_FAQ_BOOKMARKS_DIFFERENCE_ANSWER'	=> 'In phpBB 3.0, Penunjuk halaman topik berkerja seperti penunjuk halaman di browser. Anda tidak diberitahukan saar ada pembaruan. di phpBB 3.1, Penunjuk halaman seperti berlangganan sebuah topik. Anda diberitahu jika topik yang dipilih ada perubahan. Akan tetapi, dengan berlangganan akan memberitahukan anda apabila ada pembaruan pada topik atau forum melalui cara dan metode yang anda pilih di  Panel Pengaturan Penguna, dibawah “Preferensi Halaman”.',
 
@@ -215,9 +215,9 @@ $lang = array_merge($lang, array(
 
 	'HELP_FAQ_BOOKMARKS_TOPIC_QUESTION'	=> 'How do I bookmark or subscribe to specific topics?',
 	'HELP_FAQ_BOOKMARKS_TOPIC_ANSWER'	=> 'Anda dapat menambahkan ke buku petunjuk atau berlangganan spesifik topik dengan megklik tautan yang ada di menu "Alat Topik", Alat tersebut dapat dengan mudah ditemukan berada diatas dan bawah sebuah topik.<br />Membalas topik dengan “Beritahu saya saat ada posting balasan” memilih option checked juga sama dengan berlanggan topik tersebut.',
-	
-	'HELP_FAQ_BLOCK_ATTACHMENTS'	=> 'Lampiran',	
-	
+
+	'HELP_FAQ_BLOCK_ATTACHMENTS'	=> 'Lampiran',
+
 	'HELP_FAQ_ATTACHMENTS_ALLOWED_QUESTION'	=> 'Lampiran seperti apa yang diijinkan pada halaman?',
 	'HELP_FAQ_ATTACHMENTS_ALLOWED_ANSWER'	=> 'Setiap halaman bisa mengijinkan ataupun tidak untuk tipe lampiran tertentu. Jika anda tidak yakin dengan apa yang diijinkan untuk diupload, silahkan hubungi administrator halaman untuk mendapatkan bantuan.',
 
@@ -239,7 +239,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_ISSUES_WHOIS_PHPBB_QUESTION'	=> 'Siapa yang menulis halaman buletin ini?',
 	'HELP_FAQ_ISSUES_WHOIS_PHPBB_ANSWER'	=> 'Perangkat lunak ini (dengan bentuk yang tidak dimodifikasi) dibuat, dikeluarkan dan merupakan hak cipta dari <a href="http://www.phpbb.com/">phpBB Group</a>. Dibuat tersedia di bawah naungan GNU General Public License dan bisa disebarkan secara bebas. Silahkan lihat link untuk lebih jelasnya.',
 
-	
+
 
 
 ));

@@ -6,7 +6,7 @@
  * @version $Id: permissions.php 2017 harissaids@gmail.com
  * @copyright (c) 2017 Harissaid Alewni http://www.triutama.com
  * @license GNU General Public License, version 2 (GPL-2.0)
- *  
+ *
  *
  */
 
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 		<h2>Mask perizinan</h2>
 		<p>perizinan ini digunakan untuk melihat efektifitas peijinan yang diberikan kepada Pengguna, Moderator (Lokal dan Global), Administrator ataupun Forum.</p>
-	
+
 		<br />
 
 		<p>Untuk informasi lebih lajut mengenai pengaturan perizinan pada halaman phpBB3 anda, silahkan lihat <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Bab 1.5 dari Panduan Permulaan Cepat</a>.</p>

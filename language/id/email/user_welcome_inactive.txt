@@ -1,4 +1,4 @@
-Subject: Selamat datang di "{SITENAME}"
+Subjek: Selamat datang di "{SITENAME}"
 
 {WELCOME_MSG}
 

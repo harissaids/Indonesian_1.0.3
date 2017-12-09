@@ -7,7 +7,7 @@
  * @author 2017 Harissaid Alweni http://www.triutama.com
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
- * 
+ *
  *
  */
 

@@ -3,7 +3,7 @@ Berikut ini adalah sebuah e-mail yang dikirimkan kepada anda oleh administrator 
 
 {CONTACT_EMAIL}
 
-Mengikutsertakan keseluruhan e-mail ini (terutama judulnya). 
+Mengikutsertakan keseluruhan e-mail ini (terutama judulnya).
 
 Pesan dikirim kepada anda sebagai berikut:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

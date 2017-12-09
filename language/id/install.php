@@ -6,7 +6,7 @@
  * @version $Id: install.php 2017 harissaids@gmail.com
  * @copyright (c) 2017 Harissaid Alewni http://www.triutama.com
  * @license GNU General Public License, version 2 (GPL-2.0)
- *  
+ *
  *
  */
 

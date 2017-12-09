@@ -6,7 +6,7 @@
  * @version $Id: common.php 2017 harissaids@gmail.com
  * @copyright (c) 2017 Harissaid Alewni http://www.triutama.com
  * @license GNU General Public License, version 2 (GPL-2.0)
- *  
+ *
  *
  */
 
@@ -70,13 +70,13 @@ $lang = array_merge($lang, array(
 	'ADMINISTRATORS'				=> 'Administrator',
 	'AGE'							=> 'Usia',
 	'AIM'							=> 'AIM',
-    
+
 	'AJAX_ERROR_TITLE'				=> 'Kesalahan AJAX',
 	'AJAX_ERROR_TEXT'				=> 'Terjadi kesalahan saat memproses permintaan Anda.',
 	'AJAX_ERROR_TEXT_ABORT'			=> 'Permintaan dibatalkan pengguna.',
 	'AJAX_ERROR_TEXT_TIMEOUT'		=> 'Waktu telah habis; Harap mencoba kembali.',
 	'AJAX_ERROR_TEXT_PARSERERROR'	=> 'Terjadi kesalahan dalam permintaan tersebut dan server mengembalikan balasan yang tidak benar.',
-    
+
 	'ALLOWED'						=> 'Diizinkan',
 	'ALL_FILES'						=> 'Semua File',
 	'ALL_FORUMS'					=> 'Semua Forum',
@@ -84,9 +84,9 @@ $lang = array_merge($lang, array(
 	'ALL_POSTS'						=> 'Semua Posting',
 	'ALL_TIMES'						=> 'Waktu dalam <span title="%2$s">%1$s</span>',
 	'ALL_TOPICS'					=> 'Semua Topik',
-	
+
     'ALT_TEXT'						=> 'Text alternatif',
-    
+
 	'AND'							=> 'Dan',
 	'ARE_WATCHING_FORUM'			=> 'Anda telah berlangganan pemberitahuan untuk posting yang baru di forum ini.',
 	'ARE_WATCHING_TOPIC'			=> 'Anda telah berlangganan pemberitahuan untuk posting yang baru di topik ini.',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'File gambar yang anda coba lampirkan tidak sah.',
 	'AUTHOR'						=> 'Penulis',
 	'AUTH_NO_PROFILE_CREATED'		=> 'Pembuatan profil pengguna tidak berhasil.',
-    
+
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Entri database tidak valid.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Jenis tipe layanan untuk OAuth tidak valid telah diberikan.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'Layanan OAuth tidak dibuat ',
@@ -105,14 +105,14 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'Token OAuth tidak tersimpan.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'Token OAuth salah tersimpan.',
-    
+
 	'AVATAR_DISALLOWED_CONTENT'		=> 'Upload ditolak karena file yang diupload dikenali kemungkinan penyerangan.',
 	'AVATAR_DISALLOWED_EXTENSION'	=> 'File ini tidak dapat ditampilkan karena ekstensi file <strong>%s</strong> tidak diizinkan.',
 	'AVATAR_EMPTY_REMOTE_DATA'		=> 'Avatar yang dimaksud tidak dapat diupload karena remote data kelihatannya tidak sah ataupun rusak.',
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'File avatar yang diupload kosong.',
 	'AVATAR_INVALID_FILENAME'		=> '%s adalah nama file yang tidak sah.',
 	'AVATAR_NOT_UPLOADED'			=> 'Avatar tidak dapat diupload.',
-    
+
  	'AVATAR_NO_TEMP_DIR'			=> 'Folder sementara tidak dapat ditemukan atau tidak dapat ditulis.',
 	'AVATAR_NO_SIZE'				=> 'Ukuran panjang dan lebar avatar yang di-link-kan tidak dapat ditentukan. Mohon diisi secara manual.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'File yang dimaksud diupload secara parsial.',

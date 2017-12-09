@@ -6,7 +6,7 @@
  * @version $Id: groups.php 2017 harissaids@gmail.com
  * @copyright (c) 2017 Harissaid Alewni http://www.triutama.com
  * @license GNU General Public License, version 2 (GPL-2.0)
- *  
+ *
  *
  */
 
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'			=> 'Operasi yang dilakukan tidak dapat diterapkan karena anda bukan pimpinan grup dari grup yang dipilih.',
 	'NOT_MEMBER_OF_GROUP'			=> 'Operasi yang dilakukan tidak dapat diterapkan karena anda bukan anggota dari grup yang dipilih ataupun keanggotaan anda belum disetujui.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Anda tidak diperkenankan untuk berhenti dari grup default anda.',
-	
+
 	'PRIMARY_GROUP'		=> 'Grup primer',
 
 	'REMOVE_SELECTED'		=> 'Singkirkan yang dipilih',

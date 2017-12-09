@@ -6,7 +6,7 @@
  * @version $Id: email.php 2017 harissaids@gmail.com
  * @copyright (c) 2017 Harissaid Alewni http://www.triutama.com
  * @license GNU General Public License, version 2 (GPL-2.0)
- *  
+ *
  *
  */
 
@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_VIEWED'			=> 'Membersihkan otomatis berdasarkan dilihat',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Rentang waktu sejak terakhir kali dilihat, setelahnya topik dihapus.',
 	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Frekuensi membersihkan otomatis topik bayangan',
-	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Jumlah hari sejak topik dilihat setelah topik disingkirkan',	
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Jumlah hari sejak topik dilihat setelah topik disingkirkan',
 	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Berdasarkan umur topik bayangan',
 	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Rentang waktu setelahnya topik dihapus.',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Jumlah hari sejak topik dilihat setelah topik disingkirkan.',
